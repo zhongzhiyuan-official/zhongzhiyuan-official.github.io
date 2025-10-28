@@ -96,6 +96,25 @@ main {
     border-radius: var(--border-radius);
 }
 
+.video-link {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 1rem;
+}
+
+.video-link a {
+    color: var(--secondary-color);
+    text-decoration: none;
+    font-weight: 500;
+    transition: var(--transition);
+    border-bottom: 2px solid transparent;
+}
+
+.video-link a:hover {
+    color: #2980b9;
+    border-bottom-color: #2980b9;
+}
+
 /* 链接区域 */
 .links-section h2 {
     text-align: center;
@@ -307,4 +326,5 @@ footer p {
         display: none;
     }
 }
+
 
