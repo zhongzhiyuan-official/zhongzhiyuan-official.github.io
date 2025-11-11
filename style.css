@@ -116,7 +116,7 @@ main {
 }
 
 /* 链接区域 */
-.links-section h2 {
+.links-section .picture-section h2 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 30px;
@@ -326,5 +326,6 @@ footer p {
         display: none;
     }
 }
+
 
 
